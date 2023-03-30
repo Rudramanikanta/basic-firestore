@@ -12,9 +12,7 @@ const Home = () => {
     await signOut(auth)
     navigate(-1)
   }
- useEffect(() => {
-  
- }, [input]);
+
   console.log(auth)
   return (
     <div>
